@@ -1,0 +1,49 @@
+
+.header {
+background: $d1-p1;
+display: flex;
+justify-content: space-between;
+padding: 0 50px;
+        &__logotip{
+            a{
+                font-size: 36px;
+                line-height: 60px;
+            }
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #fff;  
+        }
+
+        &__user {
+            display: flex;
+            align-items: center;
+        
+        a{
+            display: flex;
+            align-items: center;
+        }
+    }
+		&__avatar {
+            height: 40px;
+            width: 40px;
+            background: url(../img/av_64.png) no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin: 0 10px 00px;
+		}
+
+		&__name {
+		}
+
+    }
+    @media (max-width:350px) {
+       .header{
+        flex-wrap: wrap;
+        padding: 0 20px 20px;
+        justify-content: center;
+       } 
+    }

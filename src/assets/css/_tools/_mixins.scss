@@ -1,0 +1,21 @@
+@mixin btn($width, $hight, $color, $border, $background-color) {
+    width: $width;
+    height: $hight;
+    color: $color;
+    border:1px solid $border;
+    background-color: $background-color;
+}
+
+@mixin hover {
+    background: $prime-1;
+    color: white;
+    padding: 0 5px;
+
+}
+
+@mixin  social-icon{
+    width:30px;
+    height: 30px;
+    background-size: 100% 100%;
+    background-position: center;
+}

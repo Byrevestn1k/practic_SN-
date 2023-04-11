@@ -1,0 +1,91 @@
+.login-form {
+
+    input:not(.login-form__checkbox-input){
+        width: 320px;
+        height: 50px;
+        border: none;
+        border-bottom: solid;
+        border-width: 1px;
+        border-color: rgb(216, 218, 219);
+        box-sizing: border-box;
+        outline:none;
+      }
+    form{
+        display: flex;
+        flex-direction: column ;
+        text-align: center;
+        align-items: center;
+    }     
+      input placeholder{
+        font-size: 16px;
+        color: rgb(101, 106, 112);
+        line-height: 1.2;    
+      }
+      
+     
+    &__title {
+        margin: 30px 0 ;
+  
+  
+    h1{
+        font-size: 28px;
+        font-weight: 400;  
+        text-align: center;
+    }
+  }
+    &__login {
+    }
+
+    &__input {
+    }
+
+    &__password {
+    }
+
+    &__password-input {
+    }
+
+    &__chackbox {
+        width: 320px;
+        text-align: left;
+        color: rgb(101, 106, 112);
+
+    }
+
+    &__checkbox-input {
+        border-color: rgb(216, 218, 219);
+        box-sizing: border-box;
+        margin-top: 30px;
+        outline:none;
+        
+    }
+    
+		&__button {
+        width: 100%;   
+
+		}
+
+		&__button-submit {
+            background: $d1-p1;
+            width: 320px;
+            height: 30px;
+            margin-top: 30px;
+            color: #fff;
+            border: none;
+            box-shadow: 1px 1px 2px #000;
+		}
+}
+
+@media (max-width:350px) {
+    .login-form{   
+     padding: 0 20px 20px;
+     &__button-submit, &__chackbox{
+        width: 100%;
+     }
+     
+     input:not(.login-form__checkbox-input){
+            width: 100%;
+        }
+
+    } 
+ }

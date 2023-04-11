@@ -1,0 +1,49 @@
+//colors
+$prime-1: #03a9f4;
+$prime-2: #f75e2e;
+$prime-3: #ecfa4d;
+$prime-4: #656a70;
+
+//colors lighten
+
+$l1-p1: mix(#fff, $prime-1, 40%);
+$l2-p1: mix(#fff, $prime-1, 70%);
+$l3-p1: mix(#fff, $prime-1, 90%);
+
+$l1-p2: mix(#fff, $prime-2, 40%);
+$l2-p2: mix(#fff, $prime-2, 70%);
+$l3-p2: mix(#fff, $prime-2, 90%);
+
+$l1-p2: mix(#fff, $prime-2, 40%);
+$l2-p2: mix(#fff, $prime-2, 70%);
+$l3-p2: mix(#fff, $prime-2, 90%);
+
+$l1-p3: mix(#fff, $prime-3, 40%);
+$l2-p3: mix(#fff, $prime-3, 70%);
+$l3-p3: mix(#fff, $prime-3, 90%);
+
+$l1-p4: mix(#fff, $prime-4, 40%);
+$l2-p4: mix(#fff, $prime-4, 70%);
+$l3-p4: mix(#fff, $prime-4, 90%);
+
+//colors dacken
+
+$d1-p1: mix(#000, $prime-1, 20%);
+$d2-p1: mix(#000, $prime-1, 50%);
+$d3-p1: mix(#000, $prime-1, 70%);
+
+$d1-p2: mix(#000, $prime-2, 20%);
+$d2-p2: mix(#000, $prime-2, 50%);
+$d3-p2: mix(#000, $prime-2, 70%);
+
+$d1-p2: mix(#000, $prime-2, 20%);
+$d2-p2: mix(#000, $prime-2, 50%);
+$d3-p2: mix(#000, $prime-2, 70%);
+
+$d1-p3: mix(#000, $prime-3, 20%);
+$d2-p3: mix(#000, $prime-3, 50%);
+$d3-p3: mix(#000, $prime-3, 70%);
+
+$d1-p4: mix(#000, $prime-4, 20%);
+$d2-p4: mix(#000, $prime-4, 50%);
+$d3-p4: mix(#000, $prime-4, 70%);
